@@ -1,0 +1,34 @@
+.movieList {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+.gridCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  width: min-content;
+  margin: auto;
+}
+.featuredFlex {
+  display: flex;
+  justify-content: space-between !important;
+  padding: 40px 0 30px;
+  margin: 0 222px;
+}
+
+@media screen and (max-width: 767px) {
+  .gridCards {
+    display: block;
+  }
+  .featuredFlex {
+    margin: 0 65px;
+  }
+  .featuredFlex h2 {
+    font-size: var(--text-sm);
+  }
+  .featuredFlex a {
+    font-size: var(--text-sm);
+  }
+}

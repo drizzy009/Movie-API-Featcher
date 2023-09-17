@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: transparent;
+}
+.rightButtons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.rightButtons img {
+  width: 36px;
+  height: 36px;
+}
+.rightButtons span {
+  color: var(--white);
+  font-size: var(--text-base);
+  line-height: var(--line-base);
+}
+
+@media screen and (max-width: 767px) {
+  .header img:nth-child(1) {
+    width: 80%;
+    display: none;
+  }
+}

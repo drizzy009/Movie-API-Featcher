@@ -1,0 +1,94 @@
+:root {
+  --text-xs: 0.75rem;
+  --line-xs: 1rem;
+  --text-sm: 0.875rem;
+  --line-sm: 1.25rem;
+  --text-base: 1rem;
+  --line-base: 1.5rem;
+  --text-lg: 1.125rem;
+  --line-lg: 1.75rem;
+  --text-xl: 1.25rem;
+  --line-xl: 1.75rem;
+  --text-2xl: 1.5rem;
+  --line-2xl: 2rem;
+  --text-3xl: 1.875rem;
+  --line-3xl: 2.25rem;
+  --text-4xl: 2.25rem;
+  --line-4xl: 2.5rem;
+  --text-5xl: 3rem;
+  --line-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --line-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --line-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --line-8xl: 6rem;
+  --text-9xl: 8rem;
+  --line-9xl: 8rem;
+  --text-info: 1.438rem;
+  --line-info: 2.123rem;
+
+  --border-gray: #F8E7EB;
+
+
+  --white: #fff;
+  --black: #000;
+  --darkgray: #111827;
+  --red: #7F1D1D;
+  --orange: #7C2D12;
+  --yellow-amber: #78350F;
+  --green: #064E3B;
+  --text-red: #B91C1C;
+  --text-dark: #333333;
+
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+
+  --text-info-fm: 'Poppins', sans-serif;
+
+  .ytp-large-play-button::after {
+    content: "Watch Trailer" !important;
+    position: absolute !important;
+    top: 110% !important;
+  }
+}
+
+
+*,
+*::before,
+*::after {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+}
+
+body {
+  position: relative;
+  font-family: 'DM Sans', sans-serif;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding-bottom: 20px;
+  }
+}
+
+iframe button {
+  display: none;
+}

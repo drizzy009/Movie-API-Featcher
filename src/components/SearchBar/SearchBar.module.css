@@ -1,0 +1,31 @@
+.searchField {
+  position: relative;
+  display: flex;
+}
+.searchField input {
+  width: 500px;
+  background: transparent;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #D1D5DB;
+  color: var(--white);
+  font-size: var(--text-base);
+  line-height: var(--line-base);
+  font-weight: var(--fw-500);
+}
+.searchField img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .searchField input {
+    width: 230px;
+    font-size: var(--text-xs);
+  }
+}

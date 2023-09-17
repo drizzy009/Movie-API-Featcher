@@ -1,0 +1,65 @@
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 12px;
+  margin-top: 20px;
+  position: relative;
+}
+.flexBox a {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  color: var(--darkgray);
+  font-size: var(--text-lg);
+  line-height: var(--line-lg);
+  font-weight: bold;
+}
+.flexBox span:nth-child(2) {
+  color: var(--darkgray);
+  opacity: 0.4;
+  font-size: var(--text-xs);
+  font-weight: var(--fw-600);
+}
+.flexBox_img {
+  width: 250px;
+  height: 370px;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating span {
+  display: flex;
+  align-items: center;
+  color: var(--darkgray) !important;
+  font-size: var(--text-xs) !important;
+  font-weight: var(--fw-300) !important;
+  opacity: 1 !important;
+}
+.rating img {
+  margin-right: 12px;
+}
+.likeToggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.likeToggle button {
+  display: flex;
+  justify-content: flex-end;
+}
+.likeToggle img {
+  background: rgba(232, 232, 232, 0.3);
+  border-radius: 100%;
+  width: 60%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexBox {
+    margin: 0 0 30px;
+  }
+}
