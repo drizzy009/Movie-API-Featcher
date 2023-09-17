@@ -51,8 +51,7 @@ fetchData();
 const fetchDownloadLink = async (movieTitle) => {
   try {
     const response = await fetch(
-      `https://cbx.xmenace.workers.dev/0:search?q=${movieTitle}`,
-      { mode: 'no-cors' }
+      `https://cbx.xmenace.workers.dev/0:search?q=${movieTitle}`
     );
     if (response.ok) {
       const data = await response.json();
